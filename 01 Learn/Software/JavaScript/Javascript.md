@@ -54,6 +54,59 @@ If you’re already fairly comfortable with JavaScript, first check out Into YDK
 
 
 
+# JavaScript : Scope & Closures
+
+1. [[What is Scope?]]
+2. [[Lexical Scope]]
+3. [[Function versus Block Scope]]
+4. [[Hoisting]]
+5. [[Scope Closures]]
+
+# JavaScript : this & Object Prototypes
+
+1. [[this or That?]]
+2. [[this All makes sense Now!]]
+3. [[Objects]]
+4. [[Mixing (Up) "Class" Objects]]
+5. [[Prototypes]]
+6. [[Behavior Delegation]]
+
+# JavaScript : Types & Grammar
+
+1. [[Types]]
+2. [[Values]]
+3. [[Natives]]
+4. [[Coercion]]
+5. [[Grammar]]
+
+# JavaScript : Async & Performance
+
+1. [[Asynchrony: Now & Later]]
+2. [[Callbacks]]
+3. [[Promises]]
+4. [[Generators]]
+5. [[Program Performance]]
+6. [[Benchmarking & Tuning]]
+
+# JavaScript : ES6 & Beyond
+
+1. [[ES? Now and Future]]
+2. [[Syntax]]
+3. [[Organization]]
+4. [[Async Flow Control]]
+5. [[Collections]]
+6. [[API Additions]]
+7. [[Meta Programming]]
+8. [[Beyond ES6]]
+
+
+
+# Libraries
+
+## [[Three.js]]
+
+
+
 #References
 
 ---

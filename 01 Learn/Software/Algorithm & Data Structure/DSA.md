@@ -1,10 +1,10 @@
-2026-02-08 23:24
+	2026-02-08 23:24
 
 Status: in progress
 
 Tags:
 
-#learning
+#learning #JavaScript 
 
 # Data Structure & Algorithm
 
@@ -16,6 +16,9 @@ Data structures are a way of organizing and storing information in a computer or
 &
 [[Algorithm]]
 An algorithm is a set of well-defined instructions, a step-by-step procedure designed to solve a specific problem or perform a particular task.
+
+using
+[[Javascript]]
 
 ---
 how can we measure algorithm performance? There are two main ways:

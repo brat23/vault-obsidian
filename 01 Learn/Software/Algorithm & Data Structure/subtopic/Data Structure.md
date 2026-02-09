@@ -14,4 +14,6 @@ Data structures are a way of organizing and storing information in a computer or
 
 #References
 
+[[Designing Data Intensive Application]]
+
 ---

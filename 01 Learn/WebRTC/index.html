@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Learning Platform</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/js/components/ui/theme.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle sidebar">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="header-title">
+            <span>📡</span>
+            <span>WebRTC Learning Platform</span>
+        </div>
+        <div class="theme-toggle">
+            <span class="icon sun">☀️</span>
+            <label class="theme-switch-wrapper">
+                <input type="checkbox">
+                <span class="theme-slider"></span>
+            </label>
+            <span class="icon moon">🌙</span>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="resize-handle" id="resizeHandle"></div>
+            <div class="sidebar-content" id="sidebarContent">
+                <!-- Navigation will be injected here -->
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <main class="content-area" id="contentArea">
+            <div class="content-wrapper">
+                <div class="content-card">
+                    <div id="mainContent">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Loading content...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>

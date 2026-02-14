@@ -1,0 +1,700 @@
+{
+  "title": "WebRTC Mastery",
+  "modules": [
+    {
+      "name": "Introduction to WebRTC",
+      "icon": "",
+      "subtopics": [
+        {
+          "name": "Traditional HTTP has limitations",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Resources",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC - Introduction",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "First WebRTC video call between Firefox and Chrome",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC is governed by a specification (W3C) and many RFCs",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC use cases",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC Source Code",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "The RTCPeerConnection function, new and the 2 most important aspects of WebRTC",
+          "path": "../../01 Introduction/Introduction to WebRTC.md",
+          "type": "markdown"
+        }
+      ]
+    },
+    {
+      "name": "WebRTC Theory",
+      "icon": "📹",
+      "subtopics": [
+        {
+          "name": "Accessing a user's video device(GUM)",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Using the enumerateDevices() method to access a specific device ID",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Displaying a media stream inside of a tag",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "How do you identify yourself (ipconfig, netstat and public IPs)",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "What is NAT?",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Introduction to HOST and STUN candidates",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC workflow visualized",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "What is ice Framework and who is the ice Agent?",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Examining the RTCPeerConnection object",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Introduction to chrome://webrtc-terminals and about:webrtc",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "The onicecandidate event",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "The different ways to deal with Promises and functions in JavaScript",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC is managed by session descriptions",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Remote session description",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "JavaScript Session Establishment Protocol (JSEP)",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Using getTrack() and setTrack() to add video media to your peer connection",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "What exactly does an OFFER indicate, and how to customize the SDP?",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Generating HOST ice candidates",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Listening for the onnegotiationneeded event",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Explaining the candidate property, sdpMid, sdpMLineIndex, and more",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "What are STUN servers",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Adding STUN configurations to our RTCPeerConnection object",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Using Wireshark to analyze a STUN request and response",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Why does STUN Sometimes fail?",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "What are TURN servers",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Signaling servers and the different types (SIP, XMPP, WebSockets, AJAX, etc)",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC Detailed Connection Overview",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "The final step - connectivity checks",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Understanding the WebRTC Connection Establishment Process",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC Theory - Assessment",
+          "path": "../../02 WebRTC Theory/WebRTC Theory.md",
+          "type": "markdown"
+        }
+      ]
+    },
+    {
+      "name": "Prepare Environment and set up Node",
+      "icon": "🔗",
+      "subtopics": [
+        {
+          "name": "HTML Overview",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Setting up folders, script, modules, and calculating a unique ID",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Defining state on the frontend, and setters",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Using JavaScript to enable the modal",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Closing the modal by adding an event listener on the window object",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Improving the naming of our modal element, and removing the hidden class",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Server Code - initiating a Node project and installing dependencies",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Spinning up Node's HTTP server, and serving the frontend files",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Installing Nodemon, and setting up a 'start script'",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Listening for a WebSocket request on the client side using the native WebSocket API",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Server side - disconnection logic and message event handler",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Client side - updating state and registering WebSocket event listeners",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Client side - define a custom logger",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Client side - defining a constants file and testing custom logger",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Client side - defining WebSocket frontend event listeners",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Defining a getter for our state object",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Setting up a WebSocket Server with Node.js and Express",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Prepare environment and set up Node Server - Assessment",
+          "path": "../../03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+          "type": "markdown"
+        }
+      ]
+    },
+    {
+      "name": "Implement room connection logic before WebRTC",
+      "icon": "💬",
+      "subtopics": [
+        {
+          "name": "Create Room - set up frontend click event listener",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Create Room - send a POST AJAX Fetch request to the server",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Create Room - process chunks on the server and extract the req body",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Create Room - dealing with the server response on the frontend",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Create Room - updating the user interface for the creator of a room",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Adding a keypress event, and improving code",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Fixing the bug (spoiler alert: it's the 'return' keyword)",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Destroy room - finishing logic on the frontend",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Adding server logic for removing a room when a user disconnects",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Fixing error",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Fixing the favicon error by using the data URI scheme",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Join Room - check whether the room exists, and if not, send a failure message",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Define a generic WebSocket send function (also used for WebRTC)",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Join Room - sending a successful response and notification message",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Join Room - setting up switch statements to handle incoming WebSocket messages",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Join Room - defining success logic on the frontend",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Join Room - notifying the other user that a peer has joined their room",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Join Room - fixing error and updating the message container",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Exit Room - sending a WebSocket message to exit a room",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Exit Room - process the exit request on the WebSocket server",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Exit Room - handling the response from the server",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Testing the application",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Add disconnection logic on the server",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Add disconnection logic on the frontend",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Final touch-ups and source files",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Implementing Room Creation and Deletion via AJAX",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Implementation room connection logic before WebRTC - Assessment",
+          "path": "../../04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+          "type": "markdown"
+        }
+      ]
+    },
+    {
+      "name": "Use WebRTC to establish a direct peer-to-peer connection",
+      "icon": "⚡",
+      "subtopics": [
+        {
+          "name": "WebRTC process recap and .md file",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "STAGE 1 - setting up STUN configuration servers",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Triggering the WebRTC process",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Updating UI and displaying buttons",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Creating a peer connection object",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "The connectionstatechange and signalingstatechange event listeners",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Completing event handler logic",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Updating UI after a user clicks a button",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Testing out code",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Trigger a function to create a Data Channel",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC Data Channel Overview",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Creating a WebRTC data channel, and setting up ondatachannel event listener",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Testing and viewing Chorme's webrtc-internals",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Creating a WebRTC offer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Set local description and listen for ice candidates",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Testing ice generation",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Setting up function to send an offer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Sending an offer to the signaling server (end of Stage 1)",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Stage 2 - setting up function routes, and sending offer to PEER2",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Stage 3 - begins - PEER2 receiving an offer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Fixing a bug, and confirming that PEER2 has received the offer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Showing PEER2 buttons",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Create PEER2's peer connection object",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Registering the ondatachannel listener on the pc object",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Set remote description with PEER1's offer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Create WebRTC answer, and set local session description with that answer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Touchups",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Send WebRTC answer to signaling server",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Send ice candidates to signaling server",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Stage 4 begins - server receiving answer and ice candidates",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Creating a generic signaling message function for WebRTC messages",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Stage 5 begins - PEER1 receiving an answer and ice candidates",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Timeout - testing code",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Sending ice candidates to PEER2",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Handle ice candidates received",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Setting remote description with the answer, and looping through ice buffer",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "MILESTONE - testing the WebRTC connection",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Update UI and show message input elements",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Add outgoing messages to the sender's UI",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Sending a message on a WebRTC Data Channel",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Listen for incoming messages on the dataChannel, and update UI",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Closing a peer connection and data channel when exiting a room",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Testing WebRTC closure for the user exiting the room",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Using webrtc-internals to analyze the entire WebRTC process",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Closing the second peer's connection",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "WebRTC can work without the server",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Analyzing WebRTC in Wireshark",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Use WebRTC to establish a direct peer-to-peer connection - Assessment",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "Full Course Practice Assessment",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        },
+        {
+          "name": "full Course Assessment",
+          "path": "../../05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+          "type": "markdown"
+        }
+      ]
+    }
+  ]
+}

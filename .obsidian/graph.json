@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 14701233
       }
+    },
+    {
+      "query": "webRTC",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
     }
   ],
   "collapse-display": false,

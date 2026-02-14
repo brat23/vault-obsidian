@@ -4,91 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "b1353730c1ffe0d8",
+        "id": "13e08ba07e1e1374",
         "type": "tabs",
         "children": [
           {
-            "id": "80cd54249f166d47",
+            "id": "6bff2b90585ac1b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Learn/Software/JavaScript/Javascript.md",
+                "file": "01 Learn/WebRTC/01 Introduction/Introduction to WebRTC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Javascript"
+              "title": "Introduction to WebRTC"
             }
           },
           {
-            "id": "bdfe8795631ae8a7",
+            "id": "5e5354923411a7ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Build/vmsd.in/vmsd.in.md",
+                "file": "01 Learn/WebRTC/02 WebRTC Theory/WebRTC Theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vmsd.in"
-            }
-          },
-          {
-            "id": "d5c2ecf01a692267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Learn/Game Design/Game Design Workshop/3. Working as a Game Designer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Working as a Game Designer"
-            }
-          },
-          {
-            "id": "6d94fea8c6854120",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Learn/Game Design/Rules of Play/4. Game Unit 1 - Core Concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Game Unit 1 - Core Concepts"
-            }
-          },
-          {
-            "id": "d909583261c4526f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "662ea803cd3cd093",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Learn/Marketing/Funnels/Funnels.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Funnels"
+              "title": "WebRTC Theory"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,53 +197,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "44c3e7cf2f04df8b",
+  "active": "6bff2b90585ac1b2",
   "lastOpenFiles": [
-    "01 Learn/Marketing/Funnels",
-    "01 Learn/Marketing",
+    "01 Learn/WebRTC/src/js/components/ui/theme-toggle.js",
+    "01 Learn/WebRTC/src/js/components/ui/theme.css",
+    "01 Learn/WebRTC/src/js/components/platform/index.js",
+    "01 Learn/WebRTC/src/js/components/platform/LearningPlatform.js",
+    "01 Learn/WebRTC/src/js/components/ui/index.js",
+    "01 Learn/WebRTC/src/js/components/navigation/index.js",
+    "01 Learn/WebRTC/src/js/components/content/index.js",
+    "01 Learn/WebRTC/src/js/components/platform",
+    "01 Learn/WebRTC/src/js/components/ui",
+    "01 Learn/WebRTC/src/js/components/navigation",
+    "01 Learn/WebRTC/src/js/components/content",
+    "01 Learn/WebRTC/05 Use WebRTC to establish a direct peer-to-peer connection/Use WebRTC to establish a direct peer-to-peer connection.md",
+    "01 Learn/WebRTC/04 Implement room connection logic before WebRTC/Implement room connection logic before WebRTC.md",
+    "01 Learn/WebRTC/03 Prepare Environment and set up Node/Prepare Environment and set up node.md",
+    "01 Learn/WebRTC/02 WebRTC Theory/WebRTC Theory.md",
+    "01 Learn/WebRTC/01 Introduction/Introduction to WebRTC.md",
+    "01 Learn/WebRTC/WebRTC.md",
+    "01 Learn/Software/JavaScript/Javascript.md",
+    "02 Build/vmsd.in/vmsd.in.md",
+    "01 Learn/Game Design/Game Design Workshop/3. Working as a Game Designer.md",
+    "01 Learn/Game Design/Rules of Play/4. Game Unit 1 - Core Concepts.md",
     "01 Learn/Marketing/Funnels/Funnels.md",
     "01 Learn/Software/Three Js/Three.js.md",
     "01 Learn/Full Stack Development/Full Stack Development.md",
-    "01 Learn/Game Design/Rules of Play/4. Game Unit 1 - Core Concepts.md",
     "01 Learn/Game Design/Rules of Play/Rules of Play.md",
     "01 Learn/Game Design/Rules of Play/5. Game Unit 2 - Rules.md",
     "01 Learn/Game Design/Rules of Play/6. Game Unit 3 - Play.md",
     "01 Learn/Game Design/Rules of Play/7. Game Unit 4 - Culture.md",
     "01 Learn/Game Design/Rules of Play/1. Rules of Play - Game Design Fundamentals.md",
-    "01 Learn/Game Design/Rules of Play",
     "01 Learn/Game Design/Game Design.md",
-    "02 Build/vmsd.in/vmsd.in.md",
     "01 Learn/Game Design/Art of Game Design/Art of Game Design.md",
-    "01 Learn/Game Design/Game Design Workshop/3. Working as a Game Designer.md",
     "01 Learn/Game Design/Game Design Workshop/2. Designing a Game.md",
     "01 Learn/Game Design/Game Design Workshop/1. Game Design Basics.md",
     "01 Learn/Game Design/Game Design Workshop/Game Design Workshop.md",
     "01 Learn/Game Design/Art of Game Design/01. In the Beginning, There is the Designer.md",
-    "01 Learn/Game Design/Game Design Workshop",
     "README.md",
-    "01 Learn/Game Design/Art of Game Design",
-    "01 Learn/Game Design",
-    "02 Build/Portfolio Projects.md",
-    "01 Learn/Software/JavaScript/Javascript.md",
-    "readme.md",
-    "01 Learn/Software/Algorithm & Data Structure/DSA.md",
-    "01 Learn/Software/Algorithm & Data Structure/subtopic/Double Linked Lists.md",
-    "01 Learn/Data Science/SQL/SQL.md",
-    "02 Build/vmsd.info/vmsd.info.md",
     "01 Learn/Software/Architecture/RSM.png",
     "Untitled.canvas",
     "01 Learn/Software/Architecture/architecture-of-a-data-system.png",
-    "01 Learn/Full Stack Development",
-    "01 Learn/Data Science/SQL/intro",
     "06 Reference/image/udemy-DSA-Leetcode.png",
     "06 Reference/image/udemy-DSA-JS.png",
     "06 Reference/image/intro-Algo.png",
     "06 Reference/image/DSA-JS.png",
     "06 Reference/image/Algorithm-Design-Manual.png",
     "06 Reference/image/grokking-DS.png",
-    "06 Reference/image/ydkjs-up&going.png",
-    "06 Reference/image",
-    "01 Learn/Markets/Wyckoff",
-    "01 Learn/Markets"
+    "06 Reference/image/ydkjs-up&going.png"
   ]
 }
